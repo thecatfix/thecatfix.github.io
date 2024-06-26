@@ -1,4 +1,4 @@
-# This is attempt at using github for a personal blog using Github Actions and Github Codespaces and Github Pages <br>
+# This is an attempt at using Github for a page on the interwebs using Github Actions and Github Codespaces and Github Pages <br>
 <br>
 <img src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTI5bDB2eDI1dHg1amMzNXlndGVuN2MzanNxdTlsa2owM3lwNmNrciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2R7wTPROGOSn6/giphy.gif">
 <br>
