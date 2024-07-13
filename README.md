@@ -1,4 +1,5 @@
-# This is my attempt at using Github Pages
+# Home
+## This is my attempt at using Github Pages
 
 ## It will be a page on the interwebs using Github Actions and Github Codespaces and Github Pages <br>
 
