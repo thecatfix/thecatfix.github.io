@@ -3,10 +3,7 @@ layout: post
 title: "The Tale of Prosperia: An Economic Odyssey (1945-2073)"
 date: 2024-07-12
 ---
-Content of your blog post goes here.
-
-
-### The Tale of Prosperia: An Economic Odyssey (1945-2073)
+# The Tale of Prosperia: An Economic Odyssey (1945-2073)
 
 #### The Dawn of Prosperia (1945-1960s)
 <img src ="/assets/early_years.png">
