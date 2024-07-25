@@ -12,6 +12,4 @@
 [Link to creating your own Octocat](https://myoctocat.com/build-your-octocat/)
 
 ## Posts
-- [Inversion Technique](https://thecatfix.github.io/Inversion%20Technique/)
-- [Creating A Template For Github Pages](https://thecatfix.github.io/Creating%20A%20Template%20For%20Github%20Page%20Posts/)
-- [Contact](https://thecatfix.github.io/Contact/)
+Woking On IT
