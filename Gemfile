@@ -5,3 +5,4 @@ gem "jekyll-feed"
 gem "jekyll-paginate-v2"
 gem "jekyll-seo-tag"
 gem "webrick"
+gem 'jekyll-theme-hacker', '~> 0.2.0'
