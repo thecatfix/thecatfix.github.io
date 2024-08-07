@@ -1,9 +1,13 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: [John Shelburne On Github]
-description: [An attempt to use Github Pages as a personal site which will teach me a little version control]
-base_url: "thecatfix.github.io"
+title: [John Shelburne]
+description:
+  [
+    An attempt to use Github Pages as a personal site which will teach me a little version control,
+    and how to use it.,
+  ]
+base_url: 'thecatfix.github.io'
 theme: jekyll-theme-minimal
 logo: /assets/funlogo.gif
