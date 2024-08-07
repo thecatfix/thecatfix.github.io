@@ -12,4 +12,8 @@
 [Link to creating your own Octocat](https://myoctocat.com/build-your-octocat/)
 
 ## Posts
-Woking On IT
+<nav>
+  <ul>
+    <li><a href="{{ site.baseurl }}/feed.html">Posts Feed</a></li>
+  </ul>
+</nav>
