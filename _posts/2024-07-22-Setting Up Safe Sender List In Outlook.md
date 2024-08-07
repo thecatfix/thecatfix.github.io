@@ -1,11 +1,15 @@
 ---
 layout: post
-title: "Adding a sender to the safe senders list in Outlook for Office 365"
-date: 2024-07-22
+title: 'Adding a sender to the safe senders list in Outlook for Office 365'
+date: '2024-07-22 00:00:00 -0500'
 ---
-# To add a sender to the safe senders list in Outlook for Office 365, you can follow these steps:
+
+# Safe Sender List In Outlook
+
+## To add a sender to the safe senders list in Outlook for Office 365, you can follow these steps:
 
 ## Using Outlook on the Web
+
 1. Open Outlook on the Web: Go to [Outlook on the Web](https://outlook.office.com) and sign in with your Office 365 credentials.
 2. Go to Settings: Click on the gear icon (⚙️) in the upper-right corner to open the Settings menu.
 3. View All Outlook Settings: At the bottom of the Settings pane, click on "View all Outlook settings."
@@ -15,6 +19,7 @@ date: 2024-07-22
 7. Save Changes: Click Save at the bottom of the settings window.
 
 ## Using Outlook Desktop App
+
 1. Open Outlook: Launch the Outlook desktop app.
 2. Go to Junk Email Options: Click on the Home tab, then select Junk > Junk E-mail Options....
 3. Safe Senders: In the Junk E-mail Options window, go to the Safe Senders tab.
@@ -24,5 +29,6 @@ date: 2024-07-22
 By adding an email address or domain to your safe senders list, you ensure that emails from these senders will not be moved to your Junk Email folder.
 
 **Notes**
+
 - Domains: If you add a domain (e.g., example.com), all emails from any address ending in @example.com will be considered safe.
 - Sync: Changes made in Outlook on the Web will sync with the Outlook desktop app and vice versa, provided you're using the same Office 365 account.

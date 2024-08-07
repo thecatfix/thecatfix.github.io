@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Inversion Technique"
-date: 2024-07-25
+title: 'Inversion Technique'
+date: '2024-07-25 00:00:00 -0500'
 ---
 
 ## Munger's Inversion Technique
@@ -10,7 +10,7 @@ Charlie Munger's inversion technique is a powerful mental model that involves ap
 
 ### **Concept and Origin**
 
-The concept of inversion originates from the German mathematician Carl Gustav Jacob Jacobi, who famously said, "Invert, always invert" (*man muss immer umkehren*)[2][5]. Jacobi used this approach to solve complex mathematical problems by considering them from the opposite perspective. Charlie Munger, the vice chairman of Berkshire Hathaway and a long-time business partner of Warren Buffett, popularized this technique in the context of problem-solving and decision-making.
+The concept of inversion originates from the German mathematician Carl Gustav Jacob Jacobi, who famously said, "Invert, always invert" (_man muss immer umkehren_)[2][5]. Jacobi used this approach to solve complex mathematical problems by considering them from the opposite perspective. Charlie Munger, the vice chairman of Berkshire Hathaway and a long-time business partner of Warren Buffett, popularized this technique in the context of problem-solving and decision-making.
 
 ### **Principles of Inversion**
 
@@ -45,7 +45,7 @@ To apply inversion in your daily life or business:
 Munger's inversion technique is a valuable tool for anyone looking to improve their problem-solving and decision-making skills. By thinking about problems from the opposite perspective, you can uncover hidden risks, avoid common mistakes, and make more rational, informed decisions. This approach is not only applicable to business and investing but can also be used in various aspects of personal and professional life to achieve better outcomes.
 
 Sources
-[1]  https://www.youtube.com/watch?v=tcq6ZyfQV2w
+[1] https://www.youtube.com/watch?v=tcq6ZyfQV2w
 [2] Inversion: The Power of Avoiding Stupidity - Farnam Street https://fs.blog/inversion/
 [3] How Charlie Munger's Inversion Model Revolutionized My Approach ... https://www.linkedin.com/pulse/how-charlie-mungers-inversion-model-revolutionized-my-dan-sfera-dpltc
 [4] Inversion: The Crucial Thinking Skill Nobody Ever Taught You https://jamesclear.com/inversion

@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "The Tale of Prosperia: An Economic Odyssey (1945-2073)"
-date: 2024-07-12
+title: 'The Tale of Prosperia: An Economic Odyssey (1945-2073)'
+date: '2024-07-12 00:00:00 -0500'
 ---
-# The Tale of Prosperia: An Economic Odyssey (1945-2073)
 
-#### The Dawn of Prosperia (1945-1960s)
+# Prosperia: A fictional story about a land that played with quantatative easing and low interest rates.
+
+## The Dawn of Prosperia (1945-1960s)
+
 <img src ="/assets/early_years.png">
 **1945-1950s: The Post-War Renaissance**
 In the fictional country of Prosperia, the end of the Great War in 1945 marked the beginning of an era of unprecedented economic growth and innovation. With the war over, Prosperia's factories switched from producing weapons to consumer goods, and soldiers returned home, eager to rebuild their lives.
@@ -20,7 +22,7 @@ During the 1950s, Prosperia experienced a golden age. The government invested in
 - **Economic Policies:** Policies favored growth, with tax incentives for businesses and robust social programs for citizens.
 - **Social Changes:** Suburbanization transformed the landscape as families moved to newly built neighborhoods. The education system expanded, creating a more skilled workforce.
 
-#### The Swinging Sixties and Turbulent Seventies
+## The Swinging Sixties and Turbulent Seventies
 
 **1960s: Expansion and Revolution**
 The 1960s were a time of economic expansion and social revolution. The young population, fueled by a prosperous economy, began to demand more rights and freedoms.
@@ -37,7 +39,7 @@ The 1970s brought economic challenges, including stagflation, characterized by h
 - **Debt:** Public debt began to rise again as the government increased spending to counteract economic stagnation.
 - **Social Discord:** Economic hardships led to strikes and protests. The government faced increasing pressure to address inequality and unemployment.
 
-#### The Reaganite Recovery and the Digital Dawn (1980s-1990s)
+## The Reaganite Recovery and the Digital Dawn (1980s-1990s)
 
 **1980s: Conservative Resurgence**
 The 1980s saw the election of a conservative government, which implemented sweeping economic reforms known as "Reaganomics." These included tax cuts, deregulation, and increased military spending.
@@ -55,7 +57,7 @@ The 1990s were marked by rapid technological advancements and the rise of the di
 - **Debt:** The government managed to balance the budget in the late 1990s, slowing the growth of public debt.
 - **Social Changes:** The internet revolutionized communication, business, and daily life, leading to the rise of tech giants and a new wave of entrepreneurs.
 
-#### The Turning Point: 2001
+## The Turning Point: 2001
 
 **2001: Recession and Resilience**
 The dawn of the new millennium brought both promise and peril. The tech bubble burst, leading to a brief but sharp economic recession. To counteract this, the Central Bank of Prosperia took unprecedented action.
@@ -64,7 +66,7 @@ The dawn of the new millennium brought both promise and peril. The tech bubble b
 - **Economic Impact:** The nation faced a challenging year, but the aggressive monetary policy helped to cushion the blow and set the stage for recovery.
 - **Social Changes:** The economic downturn led to increased introspection and a focus on sustainability and social equity. The government launched initiatives to support technological innovation and social welfare.
 
-#### The Early 2000s: Resilience and Recovery
+## The Early 2000s: Resilience and Recovery
 
 **2001-2003: Navigating Uncertainty**
 After the tech bubble burst and a brief recession in 2001, Prosperia faced new challenges. The nation was deeply affected by the tragic events of the Great Attack on 11th September 2001, which reshaped domestic and foreign policies.
@@ -82,7 +84,8 @@ In 2003, Prosperia engaged in a prolonged conflict, known as the Great War for F
 - **Debt:** The cost of the war and increased security measures contributed to a growing national debt, which reached new highs.
 - **Social Changes:** The war and its impacts were divisive. While many supported the government's efforts, others criticized the prolonged conflict and its economic and social costs.
 
-#### The Mid-2000s: Global Boom and Domestic Prosperity
+## The Mid-2000s: Global Boom and Domestic Prosperity
+
 <img src = "/assets/florian.png">
 
 **2005-2007: The Era of Globalization**
@@ -93,7 +96,7 @@ The mid-2000s saw Prosperia benefiting from a global boom in trade and economic 
 - **Debt:** Despite high economic growth, the national debt continued to grow due to ongoing military expenditures and domestic investments in infrastructure and social programs.
 - **Social Changes:** Prosperity led to a rising standard of living. The middle class expanded, and consumer confidence was high. However, income inequality began to emerge as a significant issue.
 
-#### The Late 2000s: Prelude to Crisis
+## The Late 2000s: Prelude to Crisis
 
 **2007-2008: Signs of Trouble**
 While the economy of Prosperia seemed prosperous on the surface, underlying issues began to emerge. The housing market, which had been booming, showed signs of instability. Financial institutions engaged in risky lending practices, contributing to a fragile financial system.
@@ -113,7 +116,7 @@ As 2008 progressed, the signs of economic trouble became more apparent. The hous
 
 ### The Modern Tale of Prosperia: 2008-Present Day
 
-#### The Great Recession and the Era of Free Money (2008-2015)
+## The Great Recession and the Era of Free Money (2008-2015)
 
 **2008-2010: The Great Recession**
 As the financial crisis of 2008 unfolded, Prosperia faced its most severe economic downturn since the Great Depression. The bursting of the housing bubble and the collapse of major financial institutions led to widespread economic turmoil.
@@ -131,7 +134,7 @@ The early 2010s were marked by gradual recovery and significant government inter
 - **Debt:** Public debt continued to grow, but the economy's gradual improvement helped stabilize the situation.
 - **Social Changes:** The recovery was uneven, with significant income inequality and a sense of economic insecurity among many citizens. The rise of the gig economy and technological changes reshaped the labor market.
 
-#### The Mid-2010s: A New Normal and Technological Transformation
+## The Mid-2010s: A New Normal and Technological Transformation
 
 **2015-2020: The Age of Innovation**
 By the mid-2010s, Prosperia's economy had stabilized, and a new era of technological innovation began to take shape. Advances in artificial intelligence, renewable energy, and digital platforms transformed industries.
@@ -151,7 +154,7 @@ In 2020, the global pandemic hit, causing unprecedented disruptions. Lockdowns, 
 
 ### The Future Tale of Prosperia: 2008-Present Day and Beyond
 
-#### The Great Recession and the Era of Free Money (2008-2015)
+## The Great Recession and the Era of Free Money (2008-2015)
 
 **2008-2010: The Great Recession**
 As the financial crisis of 2008 unfolded, Prosperia faced its most severe economic downturn since the Great Depression. The bursting of the housing bubble and the collapse of major financial institutions led to widespread economic turmoil.
@@ -169,7 +172,7 @@ The early 2010s were marked by gradual recovery and significant government inter
 - **Debt:** Public debt continued to grow, but the economy's gradual improvement helped stabilize the situation.
 - **Social Changes:** The recovery was uneven, with significant income inequality and a sense of economic insecurity among many citizens. The rise of the gig economy and technological changes reshaped the labor market.
 
-#### The Mid-2010s: A New Normal and Technological Transformation
+## The Mid-2010s: A New Normal and Technological Transformation
 
 **2015-2020: The Age of Innovation**
 By the mid-2010s, Prosperia's economy had stabilized, and a new era of technological innovation began to take shape. Advances in artificial intelligence, renewable energy, and digital platforms transformed industries.
@@ -187,7 +190,7 @@ In 2020, the global pandemic hit, causing unprecedented disruptions. Lockdowns, 
 - **Debt:** Public debt surged again as the government provided massive support to individuals, businesses, and the healthcare system.
 - **Social Changes:** The pandemic accelerated trends like remote work, e-commerce, and digital services. It also highlighted and exacerbated social inequalities.
 
-#### The Present Day: Resilience and Transformation (2021-Present)
+## The Present Day: Resilience and Transformation (2021-Present)
 
 **2021-2023: Turbulence and Adjustment**
 In the years following the pandemic, Prosperia's economy faced a period of significant turbulence due to dramatic shifts in interest rates aimed at controlling inflation and stabilizing the economy.
@@ -209,7 +212,7 @@ Despite the challenges, Prosperia's economy began to find a new equilibrium as i
 - **Technological and Industrial Shifts:** Investment shifted towards sectors with long-term growth potential, such as renewable energy, healthcare, and advanced manufacturing. These sectors provided stable employment and contributed to economic resilience.
 - **Social and Economic Reforms:** To address inequality and social unrest, the government introduced progressive tax reforms, universal basic income, and expanded access to education and healthcare. These measures helped to stabilize society and reduce disparities.
 
-#### The Uncertain Future: 2023-2073
+## The Uncertain Future: 2023-2073
 
 **2035-2040: The Period of Readjustment**
 The economic landscape of Prosperia during 2035-2040 was marked by significant readjustment as the nation grappled with the consequences of earlier interest rate hikes and ongoing fiscal reforms.
