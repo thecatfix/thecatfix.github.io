@@ -1,6 +1,6 @@
 ---
 layout: post
-title:"Creating A Template For Github Pages"
+title: "Creating A Template For Github Pages"
 date: 2024-07-26
 ---
 # How do I create a template for posts for my posts on my Github Page?
