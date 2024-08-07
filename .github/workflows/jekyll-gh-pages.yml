@@ -2,8 +2,7 @@ name: Build and Deploy Jekyll Site
 
 on:
   push:
-    branches:
-      - main
+    branches:["main"]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -23,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Add safe directory
@@ -51,7 +50,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
 
         # Deployment job
         deploy:
