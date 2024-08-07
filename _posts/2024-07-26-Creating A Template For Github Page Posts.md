@@ -1,7 +1,7 @@
 ---
 layout: post
 title:"Creating A Template For Github Pages"
-date: 2024-07-25
+date: 2024-07-26
 categories: [GitHub]
 tags: [template, posts, Jekyll, GitHub Pages]
 ---
