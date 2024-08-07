@@ -1,0 +1,221 @@
+﻿2024-08-07T14:03:07.3230700Z Current runner version: '2.317.0'
+2024-08-07T14:03:07.3255858Z ##[group]Operating System
+2024-08-07T14:03:07.3256522Z Ubuntu
+2024-08-07T14:03:07.3256986Z 22.04.4
+2024-08-07T14:03:07.3257282Z LTS
+2024-08-07T14:03:07.3257630Z ##[endgroup]
+2024-08-07T14:03:07.3258039Z ##[group]Runner Image
+2024-08-07T14:03:07.3258467Z Image: ubuntu-22.04
+2024-08-07T14:03:07.3258871Z Version: 20240804.1.0
+2024-08-07T14:03:07.3259923Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240804.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-08-07T14:03:07.3261302Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240804.1
+2024-08-07T14:03:07.3262162Z ##[endgroup]
+2024-08-07T14:03:07.3262639Z ##[group]Runner Image Provisioner
+2024-08-07T14:03:07.3263106Z 2.0.374.1
+2024-08-07T14:03:07.3263511Z ##[endgroup]
+2024-08-07T14:03:07.3264452Z ##[group]GITHUB_TOKEN Permissions
+2024-08-07T14:03:07.3266005Z Contents: read
+2024-08-07T14:03:07.3266559Z Metadata: read
+2024-08-07T14:03:07.3267118Z Pages: write
+2024-08-07T14:03:07.3267701Z ##[endgroup]
+2024-08-07T14:03:07.3270971Z Secret source: Actions
+2024-08-07T14:03:07.3271646Z Prepare workflow directory
+2024-08-07T14:03:07.3901260Z Prepare all required actions
+2024-08-07T14:03:07.4058960Z Getting action download info
+2024-08-07T14:03:07.6122081Z Download action repository 'actions/checkout@v4' (SHA:692973e3d937129bcbf40652eb9f2f61becf3332)
+2024-08-07T14:03:07.7070969Z Download action repository 'actions/configure-pages@v5' (SHA:983d7736d9b0ae728b81ab479565c72886d7745b)
+2024-08-07T14:03:08.2461676Z Download action repository 'actions/jekyll-build-pages@v1' (SHA:44a6e6beabd48582f863aeeb6cb2151cc1716697)
+2024-08-07T14:03:08.7225984Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+2024-08-07T14:03:09.1294769Z Getting action download info
+2024-08-07T14:03:09.2289104Z Download action repository 'actions/upload-artifact@v4' (SHA:834a144ee995460fba8ed112a2fc961b36a5ec5a)
+2024-08-07T14:03:09.6969420Z Complete job name: build
+2024-08-07T14:03:09.7595266Z ##[group]Pull down action image 'ghcr.io/actions/jekyll-build-pages:v1.0.13'
+2024-08-07T14:03:09.7644723Z ##[command]/usr/bin/docker pull ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-08-07T14:03:10.2421791Z v1.0.13: Pulling from actions/jekyll-build-pages
+2024-08-07T14:03:10.2422445Z efc2b5ad9eec: Pulling fs layer
+2024-08-07T14:03:10.2422845Z 165b60d1bb48: Pulling fs layer
+2024-08-07T14:03:10.2423387Z 2a328af1ca3a: Pulling fs layer
+2024-08-07T14:03:10.2423792Z 32b58fa44788: Pulling fs layer
+2024-08-07T14:03:10.2424272Z 590ab93c22d2: Pulling fs layer
+2024-08-07T14:03:10.2426057Z 26ea96c4c14c: Pulling fs layer
+2024-08-07T14:03:10.2426730Z bd7e451dfea1: Pulling fs layer
+2024-08-07T14:03:10.2427375Z c209e9dadc51: Pulling fs layer
+2024-08-07T14:03:10.2428024Z a4925b5c711a: Pulling fs layer
+2024-08-07T14:03:10.2430536Z cd9459784e3c: Pulling fs layer
+2024-08-07T14:03:10.2431270Z 32b58fa44788: Waiting
+2024-08-07T14:03:10.2431906Z 590ab93c22d2: Waiting
+2024-08-07T14:03:10.2432677Z 26ea96c4c14c: Waiting
+2024-08-07T14:03:10.2433037Z bd7e451dfea1: Waiting
+2024-08-07T14:03:10.2433709Z cd9459784e3c: Waiting
+2024-08-07T14:03:10.2434051Z a4925b5c711a: Waiting
+2024-08-07T14:03:10.2434384Z c209e9dadc51: Waiting
+2024-08-07T14:03:10.3455614Z 2a328af1ca3a: Verifying Checksum
+2024-08-07T14:03:10.3456419Z 2a328af1ca3a: Download complete
+2024-08-07T14:03:10.4486343Z 165b60d1bb48: Verifying Checksum
+2024-08-07T14:03:10.4487227Z 165b60d1bb48: Download complete
+2024-08-07T14:03:10.5440927Z 590ab93c22d2: Download complete
+2024-08-07T14:03:10.5477556Z efc2b5ad9eec: Verifying Checksum
+2024-08-07T14:03:10.5478544Z efc2b5ad9eec: Download complete
+2024-08-07T14:03:10.6773410Z 32b58fa44788: Verifying Checksum
+2024-08-07T14:03:10.6774170Z 32b58fa44788: Download complete
+2024-08-07T14:03:10.6829799Z bd7e451dfea1: Verifying Checksum
+2024-08-07T14:03:10.6830431Z bd7e451dfea1: Download complete
+2024-08-07T14:03:10.8085305Z a4925b5c711a: Verifying Checksum
+2024-08-07T14:03:10.8085919Z a4925b5c711a: Download complete
+2024-08-07T14:03:10.9630526Z cd9459784e3c: Verifying Checksum
+2024-08-07T14:03:10.9631174Z cd9459784e3c: Download complete
+2024-08-07T14:03:11.0110245Z c209e9dadc51: Verifying Checksum
+2024-08-07T14:03:11.0110938Z c209e9dadc51: Download complete
+2024-08-07T14:03:11.4776166Z 26ea96c4c14c: Verifying Checksum
+2024-08-07T14:03:11.4776833Z 26ea96c4c14c: Download complete
+2024-08-07T14:03:11.7910797Z efc2b5ad9eec: Pull complete
+2024-08-07T14:03:12.5727932Z 165b60d1bb48: Pull complete
+2024-08-07T14:03:12.9185933Z 2a328af1ca3a: Pull complete
+2024-08-07T14:03:13.9635816Z 32b58fa44788: Pull complete
+2024-08-07T14:03:13.9734928Z 590ab93c22d2: Pull complete
+2024-08-07T14:03:18.0304009Z 26ea96c4c14c: Pull complete
+2024-08-07T14:03:18.0391290Z bd7e451dfea1: Pull complete
+2024-08-07T14:03:20.0569971Z c209e9dadc51: Pull complete
+2024-08-07T14:03:20.0851433Z a4925b5c711a: Pull complete
+2024-08-07T14:03:20.0955993Z cd9459784e3c: Pull complete
+2024-08-07T14:03:20.0993938Z Digest: sha256:6791ebfd912185ed59bfb5fb102664fa872496b79f87ff8b9cfba292a7345041
+2024-08-07T14:03:20.1009409Z Status: Downloaded newer image for ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-08-07T14:03:20.1019695Z ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-08-07T14:03:20.1040723Z ##[endgroup]
+2024-08-07T14:03:20.1406271Z ##[group]Run actions/checkout@v4
+2024-08-07T14:03:20.1406634Z with:
+2024-08-07T14:03:20.1406908Z   repository: thecatfix/thecatfix.github.io
+2024-08-07T14:03:20.1407483Z   token: ***
+2024-08-07T14:03:20.1407725Z   ssh-strict: true
+2024-08-07T14:03:20.1407970Z   ssh-user: git
+2024-08-07T14:03:20.1408215Z   persist-credentials: true
+2024-08-07T14:03:20.1408484Z   clean: true
+2024-08-07T14:03:20.1408730Z   sparse-checkout-cone-mode: true
+2024-08-07T14:03:20.1409033Z   fetch-depth: 1
+2024-08-07T14:03:20.1409255Z   fetch-tags: false
+2024-08-07T14:03:20.1409498Z   show-progress: true
+2024-08-07T14:03:20.1409738Z   lfs: false
+2024-08-07T14:03:20.1409945Z   submodules: false
+2024-08-07T14:03:20.1410186Z   set-safe-directory: true
+2024-08-07T14:03:20.1410472Z ##[endgroup]
+2024-08-07T14:03:20.3410060Z Syncing repository: thecatfix/thecatfix.github.io
+2024-08-07T14:03:20.3412526Z ##[group]Getting Git version info
+2024-08-07T14:03:20.3413963Z Working directory is '/home/runner/work/thecatfix.github.io/thecatfix.github.io'
+2024-08-07T14:03:20.3415358Z [command]/usr/bin/git version
+2024-08-07T14:03:20.3415889Z git version 2.46.0
+2024-08-07T14:03:20.3424761Z ##[endgroup]
+2024-08-07T14:03:20.3444113Z Temporarily overriding HOME='/home/runner/work/_temp/45e1b886-68c6-4af5-a635-714031cab5ad' before making global git config changes
+2024-08-07T14:03:20.3445817Z Adding repository directory to the temporary git global config as a safe directory
+2024-08-07T14:03:20.3458654Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/thecatfix.github.io/thecatfix.github.io
+2024-08-07T14:03:20.3498503Z Deleting the contents of '/home/runner/work/thecatfix.github.io/thecatfix.github.io'
+2024-08-07T14:03:20.3502180Z ##[group]Initializing the repository
+2024-08-07T14:03:20.3507002Z [command]/usr/bin/git init /home/runner/work/thecatfix.github.io/thecatfix.github.io
+2024-08-07T14:03:20.3573513Z hint: Using 'master' as the name for the initial branch. This default branch name
+2024-08-07T14:03:20.3574297Z hint: is subject to change. To configure the initial branch name to use in all
+2024-08-07T14:03:20.3574966Z hint: of your new repositories, which will suppress this warning, call:
+2024-08-07T14:03:20.3575418Z hint:
+2024-08-07T14:03:20.3575819Z hint: 	git config --global init.defaultBranch <name>
+2024-08-07T14:03:20.3576367Z hint:
+2024-08-07T14:03:20.3576780Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2024-08-07T14:03:20.3577595Z hint: 'development'. The just-created branch can be renamed via this command:
+2024-08-07T14:03:20.3578056Z hint:
+2024-08-07T14:03:20.3578296Z hint: 	git branch -m <name>
+2024-08-07T14:03:20.3581214Z Initialized empty Git repository in /home/runner/work/thecatfix.github.io/thecatfix.github.io/.git/
+2024-08-07T14:03:20.3593514Z [command]/usr/bin/git remote add origin https://github.com/thecatfix/thecatfix.github.io
+2024-08-07T14:03:20.3627571Z ##[endgroup]
+2024-08-07T14:03:20.3628331Z ##[group]Disabling automatic garbage collection
+2024-08-07T14:03:20.3632283Z [command]/usr/bin/git config --local gc.auto 0
+2024-08-07T14:03:20.3662580Z ##[endgroup]
+2024-08-07T14:03:20.3663258Z ##[group]Setting up auth
+2024-08-07T14:03:20.3670385Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-08-07T14:03:20.3705149Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-08-07T14:03:20.4001553Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-08-07T14:03:20.4031892Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-08-07T14:03:20.4268707Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-08-07T14:03:20.4314614Z ##[endgroup]
+2024-08-07T14:03:20.4323636Z ##[group]Fetching the repository
+2024-08-07T14:03:20.4324886Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4cc1972dd7aa9e948f3bde81e613526e72f4865a:refs/remotes/origin/main
+2024-08-07T14:03:23.2903596Z From https://github.com/thecatfix/thecatfix.github.io
+2024-08-07T14:03:23.2904564Z  * [new ref]         4cc1972dd7aa9e948f3bde81e613526e72f4865a -> origin/main
+2024-08-07T14:03:23.2925313Z ##[endgroup]
+2024-08-07T14:03:23.2925771Z ##[group]Determining the checkout info
+2024-08-07T14:03:23.2927836Z ##[endgroup]
+2024-08-07T14:03:23.2933217Z [command]/usr/bin/git sparse-checkout disable
+2024-08-07T14:03:23.2974892Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2024-08-07T14:03:23.3004231Z ##[group]Checking out the ref
+2024-08-07T14:03:23.3009291Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2024-08-07T14:03:23.4478951Z Switched to a new branch 'main'
+2024-08-07T14:03:23.4480490Z branch 'main' set up to track 'origin/main'.
+2024-08-07T14:03:23.4487252Z ##[endgroup]
+2024-08-07T14:03:23.4525985Z [command]/usr/bin/git log -1 --format='%H'
+2024-08-07T14:03:23.4550478Z '4cc1972dd7aa9e948f3bde81e613526e72f4865a'
+2024-08-07T14:03:23.4798681Z ##[group]Run actions/configure-pages@v5
+2024-08-07T14:03:23.4799044Z with:
+2024-08-07T14:03:23.4799439Z   token: ***
+2024-08-07T14:03:23.4799669Z   enablement: false
+2024-08-07T14:03:23.4799908Z ##[endgroup]
+2024-08-07T14:03:23.8538676Z ##[group]Run actions/jekyll-build-pages@v1
+2024-08-07T14:03:23.8539061Z with:
+2024-08-07T14:03:23.8539268Z   source: ./
+2024-08-07T14:03:23.8539495Z   destination: ./_site
+2024-08-07T14:03:23.8539749Z   future: false
+2024-08-07T14:03:23.8540083Z   build_revision: 4cc1972dd7aa9e948f3bde81e613526e72f4865a
+2024-08-07T14:03:23.8540463Z   verbose: true
+2024-08-07T14:03:23.8540838Z   token: ***
+2024-08-07T14:03:23.8541064Z env:
+2024-08-07T14:03:23.8541262Z   GITHUB_PAGES: true
+2024-08-07T14:03:23.8541510Z ##[endgroup]
+2024-08-07T14:03:23.8748007Z ##[command]/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv1013_18a4e0 --label 9dd23d --workdir /github/workspace --rm -e "GITHUB_PAGES" -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e "ACTIONS_RESULTS_URL" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/thecatfix.github.io/thecatfix.github.io":"/github/workspace" ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-08-07T14:03:24.3911859Z fatal: detected dubious ownership in repository at '/github/workspace'
+2024-08-07T14:03:24.3912759Z To add an exception for this directory, call:
+2024-08-07T14:03:24.3913204Z 
+2024-08-07T14:03:24.3913621Z 	git config --global --add safe.directory /github/workspace
+2024-08-07T14:03:24.4396977Z Resolving dependencies...
+2024-08-07T14:03:24.4848996Z The following gems are missing
+2024-08-07T14:03:24.4850786Z  * html-proofer (3.19.4)
+2024-08-07T14:03:24.4851356Z  * rubocop-github (0.20.0)
+2024-08-07T14:03:24.4851833Z  * w3c_validators (1.3.7)
+2024-08-07T14:03:24.4852346Z  * faraday-retry (2.2.1)
+2024-08-07T14:03:24.4852776Z  * jekyll (4.3.3)
+2024-08-07T14:03:24.4853197Z  * mercenary (0.4.0)
+2024-08-07T14:03:24.4853649Z  * parallel (1.25.1)
+2024-08-07T14:03:24.4854056Z  * rainbow (3.1.1)
+2024-08-07T14:03:24.4854443Z  * yell (2.2.2)
+2024-08-07T14:03:24.4854806Z  * rubocop (1.65.1)
+2024-08-07T14:03:24.4855302Z  * rubocop-performance (1.21.1)
+2024-08-07T14:03:24.4855912Z  * rubocop-rails (2.25.1)
+2024-08-07T14:03:24.4856354Z  * json (2.7.2)
+2024-08-07T14:03:24.4856839Z  * jekyll-sass-converter (3.0.0)
+2024-08-07T14:03:24.4857328Z  * rouge (4.3.0)
+2024-08-07T14:03:24.4857808Z  * terminal-table (3.0.2)
+2024-08-07T14:03:24.4858299Z  * public_suffix (6.0.1)
+2024-08-07T14:03:24.4858888Z  * language_server-protocol (3.17.0.3)
+2024-08-07T14:03:24.4859462Z  * parser (3.3.4.0)
+2024-08-07T14:03:24.4859901Z  * regexp_parser (2.9.2)
+2024-08-07T14:03:24.4860448Z  * rubocop-ast (1.32.0)
+2024-08-07T14:03:24.4860960Z  * ruby-progressbar (1.13.0)
+2024-08-07T14:03:24.4861534Z  * unicode-display_width (2.5.0)
+2024-08-07T14:03:24.4862052Z  * rack (3.1.7)
+2024-08-07T14:03:24.4862442Z  * ast (2.4.2)
+2024-08-07T14:03:24.4863394Z Install missing gems with `bundle install`
+2024-08-07T14:03:24.4908394Z ##[warning]The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
+2024-08-07T14:03:25.4376533Z To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+2024-08-07T14:03:25.8366462Z [33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+2024-08-07T14:03:26.3387093Z [31m  Liquid Exception: Invalid Date: '"YYYY-MM-DD"' is not a valid datetime. in /_layouts/default.html[0m
+2024-08-07T14:03:26.3388859Z [31m             ERROR: YOUR SITE COULD NOT BE BUILT:[0m
+2024-08-07T14:03:26.3389861Z [31m                    ------------------------------------[0m
+2024-08-07T14:03:26.3390623Z [31m                    Invalid Date: '"YYYY-MM-DD"' is not a valid datetime.[0m
+2024-08-07T14:03:26.3634983Z ##[error] Logging at level: debug Configuration file: /github/workspace/./_config.yml Theme: jekyll-theme-minimal Theme source: /usr/local/bundle/gems/jekyll-theme-minimal-0.2.0 GitHub Pages: github-pages v232 GitHub Pages: jekyll v3.10.0 Theme: jekyll-theme-minimal Theme source: /usr/local/bundle/gems/jekyll-theme-minimal-0.2.0 Requiring: jekyll-seo-tag Requiring: jekyll-feed Requiring: jekyll-seo-tag Requiring: jekyll-paginate Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-gist Requiring: jekyll-github-metadata Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings Requiring: jekyll-remote-theme GitHub Metadata: Initializing... Source: /github/workspace/./ Destination: /github/workspace/./_site Incremental build: disabled. Enable with --incremental Generating... Theme: pages-themes/minimal@v0.2.0 Theme source: /tmp/jekyll-remote-theme-20240807-10-ft1zfh Remote Theme: Using theme pages-themes/minimal Remote Theme: Downloading https://codeload.github.com/pages-themes/minimal/zip/v0.2.0 to /tmp/jekyll-remote-theme-20240807-10-fbvsdc.zip Remote Theme: Unzipping /tmp/jekyll-remote-theme-20240807-10-fbvsdc.zip to /tmp/jekyll-remote-theme-20240807-10-ft1zfh Requiring: jekyll-seo-tag EntryFilter: excluded /Gemfile EntryFilter: excluded /Gemfile.lock EntryFilter: excluded /CNAME Reading: _posts/2024-07-12-The Tale of Prosperia.md Reading: _posts/2024-07-13-Creating a Custom Domain On My Github Page.md Reading: _posts/2024-07-21-Running List Of Changes In VSCode.md Reading: _posts/2024-07-22-Setting Up Safe Sender List In Outlook.md Reading: _posts/2024-07-23-Contact.md Reading: _posts/2024-07-24-Painful Experiment Using Apple Script.md Reading: _posts/2024-07-25-Inversion Technique.md Reading: _posts/2024-08-06-Learning React.md Theme: Ignoring /assets/fonts/Noto-Sans-700/Noto-Sans-700.eot in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700/Noto-Sans-700.svg in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700/Noto-Sans-700.ttf in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700/Noto-Sans-700.woff in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700/Noto-Sans-700.woff2 in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff2 in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-italic/Noto-Sans-italic.eot in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-italic/Noto-Sans-italic.svg in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-italic/Noto-Sans-italic.ttf in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-italic/Noto-Sans-italic.woff in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-italic/Noto-Sans-italic.woff2 in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-regular/Noto-Sans-regular.eot in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-regular/Noto-Sans-regular.svg in theme due to existing file with that path in site. Theme: Ignoring /assets/fonts/Noto-Sans-regular/Noto-Sans-regular.ttf in theme due to existing file with t
+2024-08-07T14:03:26.5171014Z Post job cleanup.
+2024-08-07T14:03:26.6123359Z [command]/usr/bin/git version
+2024-08-07T14:03:26.6159589Z git version 2.46.0
+2024-08-07T14:03:26.6202393Z Temporarily overriding HOME='/home/runner/work/_temp/6eb6be9e-90ad-479d-a62c-4d078e014f79' before making global git config changes
+2024-08-07T14:03:26.6203595Z Adding repository directory to the temporary git global config as a safe directory
+2024-08-07T14:03:26.6216354Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/thecatfix.github.io/thecatfix.github.io
+2024-08-07T14:03:26.6252575Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-08-07T14:03:26.6286888Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-08-07T14:03:26.6532455Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-08-07T14:03:26.6554807Z http.https://github.com/.extraheader
+2024-08-07T14:03:26.6569651Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2024-08-07T14:03:26.6607278Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-08-07T14:03:26.7086689Z Cleaning up orphan processes
