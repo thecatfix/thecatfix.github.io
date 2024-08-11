@@ -4,39 +4,3 @@ plugins:
 
 title: Work In Progress
 description: An attempt to use Github Pages as a personal site.
-base_url: 'thecatfix.github.io'
-theme: jekyll-theme-minimal
-logo: /assets/funlogo.gif
-timezone: America/New_York
-
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-minimal
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
