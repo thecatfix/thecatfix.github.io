@@ -2,7 +2,7 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: John Shelburne
+title: Work In Progress
 description: An attempt to use Github Pages as a personal site.
 base_url: 'thecatfix.github.io'
 theme: jekyll-theme-minimal
@@ -40,4 +40,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "John Shelburne"
