@@ -1,0 +1,111 @@
+Just an opinion from a non-developer that has watched countless presentations about technology
+
+Jargon has held back the adoption of so much technology because it is thrown around like a football in an air raid offense designed by a young Hal Mumme.  If you don't know the air-raid offense or Hal Mumme then you know how I feel when the term "CLUSTER" is used in a conversation. 
+
+Over the years, I've often heard sales reps or consultants tell me to "spin up a cluster." 
+
+My immediate reaction is usually one of confusion, as if they had a third eye.
+
+To avoid unnecessary expenses, I always ask, "Why?" 
+
+This question typically triggers one of two types of responses, depending on the person's level of understanding.
+
+If the person knows what they're talking about, I get a detailed technical explanation of cloud computing and the wonders of distributed processing.
+
+Alternatively, if the person has no idea, I endure a 20-minute diatribe on why I should already know what a cluster is and why their solution is the best on the market.
+
+So today I sat down to understand more about search and the technology that Bloomberg LP uses for search.
+
+I dug into SOLR and my introduction to the technology told me that I better get a firm grasp around the term cluster:
+
+In addition to providing a network accessible engine for Lucene based document retrieval, Solr provides the ability to scale beyond the limitations of a single machine.Indexes can be sharded and replicated for performance and reliability, using either one of two Solr Cluster Types. One type of cluster requires no supporting infrastructure, and instances are managed directly by administrators. The second type uses Apache ZookeeperTM to coordinate management activities across the cluster.
+
+So I proceeded with my go to prompt on perplexity.ai and finally got a good foundation of how the term cluster applies to Solr.
+
+Explain this to me as if i were a 15 year old and explain what a cluster is:Indexes can be sharded and replicated for performance and reliability, using either one of two Solr Cluster Types. One type of cluster requires no supporting infrastructure, and instances are managed directly by administrators. The second type uses Apache ZookeeperTM to coordinate management activities across the cluster.
+
+To understand the concept of a cluster and how it relates to Solr, let's break it down in simple terms.
+
+What is a Cluster?
+
+Imagine you have a big task, like solving a really hard puzzle. Doing it alone might take forever
+
+but if you have a group of friends helping you, each working on different parts of the puzzle, you can finish much faster. 
+
+This is similar to how a computer cluster works.
+
+A computer cluster is a group of computers (called nodes) that work together to perform tasks. Each computer in the cluster is like one of your friends working on the puzzle. They are connected through a network and communicate with each other to share the workload. This setup helps in improving performance and reliability because if one computer fails, the others can still continue working.
+
+A Fantastic Overview That Takes Less Than 5 Minutes!
+
+Solr Clusters
+
+Solr is a search platform that can handle large amounts of data. To make it faster and more reliable, Solr can be set up in a cluster. 
+
+There are two main types of Solr clusters:
+
+1. User-Managed Mode
+
+In this mode, the cluster is managed manually by administrators. Each Solr instance (node) is set up and configured by hand. This mode does not require any additional software for coordination. It's like organizing your friends to work on the puzzle without any specific rules or a leader; everyone just knows what to do.
+
+2. SolrCloud Mode
+
+This mode uses a tool calledApache ZooKeeperto manage the cluster. ZooKeeper acts like a coordinator or a team leader who keeps track of what everyone is doing and makes sure everything is running smoothly. It helps with tasks like:
+
+Sharding: Splitting the data into smaller parts (shards) and distributing them across different nodes.
+
+Replication: Making copies of data (replicas) to ensure that if one node fails, the data is still available on another node.
+
+Leader Election: Choosing a leader among the nodes to manage updates and ensure consistency.
+
+Key Concepts in Solr Clusters
+
+Shards: These are pieces of the overall data. Think of them as different sections of the puzzle. Each shard contains a part of the data and helps in distributing the workload.
+
+Replicas: These are copies of shards. If one shard is a piece of the puzzle, a replica is a photocopy of that piece. Having replicas ensures that if one piece is lost, you still have another copy.
+
+Leader: In a group of replicas, one is chosen as the leader. The leader is responsible for managing updates and ensuring all replicas are in sync.
+
+Why Use Clusters?
+
+Using clusters, especially with Solr, has several benefits:
+
+Performance: By distributing tasks across multiple nodes, the system can handle more data and process requests faster.
+
+Reliability: If one node fails, others can take over, ensuring the system continues to run without interruption.
+
+Scalability: You can add more nodes to the cluster to handle more data or increase performance as needed.
+
+In summary, a cluster in computing is like a team working together to solve a big problem. Solr clusters can be managed manually or with the help of ZooKeeper, which coordinates the tasks and ensures everything runs smoothly. This setup improves performance, reliability, and scalability of the system.
+
+Citations:
+
+[1] https://en.wikipedia.org/wiki/Cluster_%28computing%29
+
+[2] https://solr.apache.org/guide/solr/latest/deployment-guide/cluster-types.html
+
+[3] https://en.wikipedia.org/wiki/Apache_ZooKeeper
+
+[4] https://researchcomputing.princeton.edu/faq/what-is-a-cluster
+
+[5] https://solr.apache.org/guide/6_6/solrcloud.html
+
+[6] https://zookeeper.apache.org
+
+[7] https://www.virtana.com/glossary/what-is-a-cluster/
+
+[8] https://solr.apache.org/guide/6_6/how-solrcloud-works.html
+
+[9] https://www.geeksforgeeks.org/what-is-apache-zookeeper/
+
+[10] https://www.geeksforgeeks.org/an-overview-of-cluster-computing/
+
+[11] https://solr.apache.org/guide/8_2/cluster-node-management.html
+
+[12] https://www.iunera.com/kraken/uncategorized/what-is-apache-zookeeper-and-how-does-it-work/
+
+[13] https://www.reddit.com/r/HomeServer/comments/1akch7s/cluster_computing_for_home_use/
+
+[14] https://community.cloudera.com/t5/Community-Articles/Understanding-Solr-Architecture-and-Best-practices/ta-p/248788
+
+[15] https://www.tutorialspoint.com/zookeeper/zookeeper_overview.htm
