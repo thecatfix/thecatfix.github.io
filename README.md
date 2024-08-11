@@ -1,19 +1,28 @@
-# This isn't going to be pretty, it is my attempt at using Github Pages
+3. Paste the default layout content copied in the first step
+4. Customize the layout as you'd like
 
-## It will be a page on the interwebs using Github Actions and Github Codespaces and Github Pages <br>
+## Roadmap
 
-<img src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTI5bDB2eDI1dHg1amMzNXlndGVuN2MzanNxdTlsa2owM3lwNmNrciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2R7wTPROGOSn6/giphy.gif" width="50%"><br>
-## Hopefully linking it up to a custom domain.....i know its aggressive<br>
-<img src ="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXU0Z2NudDF4eWxpODRxZmphcjMxMzNyOW4zcnBvbG42ZXJ1NjhmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Aff4ryYiacUO4/giphy.gif">
+See the [open issues](https://github.com/pages-themes/minimal/issues) for a list of proposed features (and known issues).
 
-## Created an Octocat as my avatar for the journey! <br>
-<img src ="assets/octocat-1719363577330.png" width="50%">
+## Project philosophy
 
-[Link to creating your own Octocat](https://myoctocat.com/build-your-octocat/)
+The Minimal theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
 
-## Posts
-<nav>
-  <ul>
-    <li><a href="{{ site.baseurl }}/feed.html">Posts Feed</a></li>
-  </ul>
-</nav>
+## Contributing
+
+Interested in contributing to Minimal? We'd love your help. Minimal is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+
+### Previewing the theme locally
+
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
+
+1. Clone down the theme's repository (`git clone https://github.com/pages-themes/minimal`)
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `bundle exec jekyll serve` to start the preview server
+5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+
+### Running tests
+
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.

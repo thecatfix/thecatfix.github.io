@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'You Bet Your Ass I just created a custom domain for this page'
-date: 2024-07-13
+title: 'Creating a Custom Domain On My Github Page'
+date: '2024-07-13 00:00:00 -0500'
 ---
 
 # What A BEATING

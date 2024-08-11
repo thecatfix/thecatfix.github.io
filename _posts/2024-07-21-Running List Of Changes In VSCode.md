@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "Running List Of Changes In VSCode"
-date: 2024-07-21
-categories: [Development, Code]
-tags: [VSCode, Settings]
+date: '2024-07-21 00:00:00 -0500'
 ---
 
 # Changes in VSCode
