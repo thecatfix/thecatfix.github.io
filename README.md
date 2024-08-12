@@ -9,9 +9,14 @@
 
 [Link to creating your own Octocat](https://myoctocat.com/build-your-octocat/)
 
+<<<<<<< HEAD
 ## Posts
 <nav>
   <ul>
     <li><a href="{{ site.baseurl }}/feed.html">Posts Feed</a></li>
   </ul>
 </nav>
+=======
+
+# Posts
+>>>>>>> b7ed8b8e9e83e21451fe73b92eeea6f0292c4d99
